@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7CC3B797-B989-49FF-9ED1-29421C09F13A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>MDL_Telerik.ReportGenerator</StartupObject>
+    <RootNamespace>MDL_Telerik</RootNamespace>
+    <AssemblyName>MDL_Telerik</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MDL_Telerik.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MDL_Telerik.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Telerik.Reporting, Version=18.0.24.130, Culture=neutral, PublicKeyToken=a9d7983dfcc261be" />
+    <Reference Include="Telerik.Reporting.WebServiceDataSource, Version=18.0.24.130, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Progress\Telerik Reporting 2024 Q1\Bin\Telerik.Reporting.WebServiceDataSource.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\ReportModel.vb" />
+    <Compile Include="ReportGenerator.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reports\MDI_Report_AbnormalResults.Designer.vb">
+      <DependentUpon>MDI_Report_AbnormalResults.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MDI_Report_AbnormalResults.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MDL_Report.Designer.vb">
+      <DependentUpon>MDL_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MDL_Report.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MDL_Report_Bacterial.Designer.vb">
+      <DependentUpon>MDL_Report_Bacterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MDL_Report_Bacterial.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MDL_Report_ClientDetails.Designer.vb">
+      <DependentUpon>MDL_Report_ClientDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MDL_Report_ClientDetails.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MDL_Report_Pathogens.Designer.vb">
+      <DependentUpon>MDL_Report_Pathogens.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MDL_Report_Pathogens.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MDL_Report_PatientDetails.Designer.vb">
+      <DependentUpon>MDL_Report_PatientDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MDL_Report_PatientDetails.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\MDL_Report_Specimen.Designer.vb">
+      <DependentUpon>MDL_Report_Specimen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MDL_Report_Specimen.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MDI_Report_AbnormalResults.resx">
+      <DependentUpon>MDI_Report_AbnormalResults.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MDL_Report.resx">
+      <DependentUpon>MDL_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MDL_Report_Bacterial.resx">
+      <DependentUpon>MDL_Report_Bacterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MDL_Report_ClientDetails.resx">
+      <DependentUpon>MDL_Report_ClientDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MDL_Report_Pathogens.resx">
+      <DependentUpon>MDL_Report_Pathogens.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MDL_Report_PatientDetails.resx">
+      <DependentUpon>MDL_Report_PatientDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MDL_Report_Specimen.resx">
+      <DependentUpon>MDL_Report_Specimen.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JsonFiles\10094547.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GeneratedReports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\bacterial.svg" />
+    <Content Include="Images\cleint.svg" />
+    <Content Include="Images\detected-box.svg" />
+    <Content Include="Images\detected.svg" />
+    <Content Include="Images\footer.svg" />
+    <Content Include="Images\logo-part.svg" />
+    <Content Include="Images\logo_mdl.png" />
+    <Content Include="Images\not-dected-box.svg" />
+    <Content Include="Images\not-detected-new.svg" />
+    <Content Include="Images\not-detected.svg" />
+    <Content Include="Images\patient.svg" />
+    <Content Include="Images\pos-text.svg" />
+    <Content Include="Images\positive-new.svg" />
+    <Content Include="Images\positive.svg" />
+    <Content Include="Images\specimens.svg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

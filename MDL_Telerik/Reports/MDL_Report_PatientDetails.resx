@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PictureBox1.Value" xml:space="preserve">
+    <value>&lt;svg width="274" height="145" viewBox="0 0 274 145" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="M14.5 16.5C13.7438 16.5 13.0964 16.2307 12.5578 15.6922C12.0193 15.1536 11.75 14.5063 11.75 13.75C11.75 12.9938 12.0193 12.3464 12.5578 11.8078C13.0964 11.2693 13.7438 11 14.5 11C15.2563 11 15.9036 11.2693 16.4422 11.8078C16.9807 12.3464 17.25 12.9938 17.25 13.75C17.25 14.5063 16.9807 15.1536 16.4422 15.6922C15.9036 16.2307 15.2563 16.5 14.5 16.5ZM9 22V20.075C9 19.6854 9.10026 19.3273 9.30078 19.0008C9.5013 18.6742 9.76771 18.425 10.1 18.2531C10.8104 17.8979 11.5323 17.6315 12.2656 17.4539C12.999 17.2763 13.7438 17.1875 14.5 17.1875C15.2563 17.1875 16.001 17.2763 16.7344 17.4539C17.4677 17.6315 18.1896 17.8979 18.9 18.2531C19.2323 18.425 19.4987 18.6742 19.6992 19.0008C19.8997 19.3273 20 19.6854 20 20.075V22H9ZM10.375 20.625H18.625V20.075C18.625 19.949 18.5935 19.8344 18.5305 19.7313C18.4674 19.6281 18.3844 19.5479 18.2813 19.4906C17.6625 19.1813 17.038 18.9492 16.4078 18.7945C15.7776 18.6398 15.1417 18.5625 14.5 18.5625C13.8583 18.5625 13.2224 18.6398 12.5922 18.7945C11.962 18.9492 11.3375 19.1813 10.7188 19.4906C10.6156 19.5479 10.5326 19.6281 10.4695 19.7313C10.4065 19.8344 10.375 19.949 10.375 20.075V20.625ZM14.5 15.125C14.8781 15.125 15.2018 14.9904 15.4711 14.7211C15.7404 14.4518 15.875 14.1281 15.875 13.75C15.875 13.3719 15.7404 13.0482 15.4711 12.7789C15.2018 12.5096 14.8781 12.375 14.5 12.375C14.1219 12.375 13.7982 12.5096 13.5289 12.7789C13.2596 13.0482 13.125 13.3719 13.125 13.75C13.125 14.1281 13.2596 14.4518 13.5289 14.7211C13.7982 14.9904 14.1219 15.125 14.5 15.125Z" fill="white"/&gt;
+&lt;path fill-rule="evenodd" clip-rule="evenodd" d="M111 5H14C6.26801 5 0 11.268 0 19V131C0 138.732 6.26801 145 14 145H260C267.732 145 274 138.732 274 131V19C274 11.268 267.732 5 260 5H153V8H260C266.075 8 271 12.9249 271 19V131C271 137.075 266.075 142 260 142H14C7.92487 142 3 137.075 3 131V19C3 12.9249 7.92487 8 14 8H111V5Z" fill="#DFDFDF"/&gt;
+&lt;path d="M9 8H73V9C73 14.5228 68.5228 19 63 19H19C13.4772 19 9 14.5228 9 9V8Z" fill="#DFDFDF"/&gt;
+&lt;path d="M30.9297 12.9766H31.3281C31.7005 12.9766 31.9792 12.9036 32.1641 12.7578C32.349 12.6094 32.4414 12.3945 32.4414 12.1133C32.4414 11.8294 32.3633 11.6198 32.207 11.4844C32.0534 11.349 31.8112 11.2812 31.4805 11.2812H30.9297V12.9766ZM33.6641 12.0703C33.6641 12.6849 33.4714 13.1549 33.0859 13.4805C32.7031 13.806 32.1576 13.9688 31.4492 13.9688H30.9297V16H29.7188V10.2891H31.543C32.2357 10.2891 32.7617 10.4388 33.1211 10.7383C33.4831 11.0352 33.6641 11.4792 33.6641 12.0703ZM38.043 16L37.6289 14.6406H35.5469L35.1328 16H33.8281L35.8438 10.2656H37.3242L39.3477 16H38.043ZM37.3398 13.625C36.957 12.3932 36.7409 11.6966 36.6914 11.5352C36.6445 11.3737 36.6107 11.2461 36.5898 11.1523C36.5039 11.4857 36.2578 12.3099 35.8516 13.625H37.3398ZM42 16H40.7891V11.2969H39.2383V10.2891H43.5508V11.2969H42V16ZM46.5664 16H43.9688V15.3125L44.6641 14.9922V11.2969L43.9688 10.9766V10.2891H46.5664V10.9766L45.8711 11.2969V14.9922L46.5664 15.3125V16ZM50.8359 16H47.5469V10.2891H50.8359V11.2812H48.7578V12.5352H50.6914V13.5273H48.7578V15H50.8359V16ZM57.0977 16H55.5586L53.0742 11.6797H53.0391C53.0885 12.4427 53.1133 12.987 53.1133 13.3125V16H52.0312V10.2891H53.5586L56.0391 14.5664H56.0664C56.0273 13.8242 56.0078 13.2995 56.0078 12.9922V10.2891H57.0977V16ZM60.7422 16H59.5312V11.2969H57.9805V10.2891H62.293V11.2969H60.7422V16Z" fill="#987D3A"/&gt;
+&lt;circle cx="13" cy="16" r="11" fill="#987D3A"/&gt;
+&lt;path d="M12.5 15.5C11.7438 15.5 11.0964 15.2307 10.5578 14.6922C10.0193 14.1536 9.75 13.5063 9.75 12.75C9.75 11.9938 10.0193 11.3464 10.5578 10.8078C11.0964 10.2693 11.7438 10 12.5 10C13.2563 10 13.9036 10.2693 14.4422 10.8078C14.9807 11.3464 15.25 11.9938 15.25 12.75C15.25 13.5063 14.9807 14.1536 14.4422 14.6922C13.9036 15.2307 13.2563 15.5 12.5 15.5ZM7 21V19.075C7 18.6854 7.10026 18.3273 7.30078 18.0008C7.5013 17.6742 7.76771 17.425 8.1 17.2531C8.81042 16.8979 9.53229 16.6315 10.2656 16.4539C10.999 16.2763 11.7438 16.1875 12.5 16.1875C13.2563 16.1875 14.001 16.2763 14.7344 16.4539C15.4677 16.6315 16.1896 16.8979 16.9 17.2531C17.2323 17.425 17.4987 17.6742 17.6992 18.0008C17.8997 18.3273 18 18.6854 18 19.075V21H7ZM8.375 19.625H16.625V19.075C16.625 18.949 16.5935 18.8344 16.5305 18.7313C16.4674 18.6281 16.3844 18.5479 16.2813 18.4906C15.6625 18.1813 15.038 17.9492 14.4078 17.7945C13.7776 17.6398 13.1417 17.5625 12.5 17.5625C11.8583 17.5625 11.2224 17.6398 10.5922 17.7945C9.96198 17.9492 9.3375 18.1813 8.71875 18.4906C8.61563 18.5479 8.53255 18.6281 8.46953 18.7313C8.40651 18.8344 8.375 18.949 8.375 19.075V19.625ZM12.5 14.125C12.8781 14.125 13.2018 13.9904 13.4711 13.7211C13.7404 13.4518 13.875 13.1281 13.875 12.75C13.875 12.3719 13.7404 12.0482 13.4711 11.7789C13.2018 11.5096 12.8781 11.375 12.5 11.375C12.1219 11.375 11.7982 11.5096 11.5289 11.7789C11.2596 12.0482 11.125 12.3719 11.125 12.75C11.125 13.1281 11.2596 13.4518 11.5289 13.7211C11.7982 13.9904 12.1219 14.125 12.5 14.125Z" fill="white"/&gt;
+&lt;path d="M151 11.5C151 5.14873 156.149 0 162.5 0H264C269.523 0 274 4.47715 274 10V23H162.5C156.149 23 151 17.8513 151 11.5V11.5Z" fill="#082055"/&gt;
+&lt;rect x="135" y="21" width="3" height="123" fill="#DFDFDF"/&gt;
+&lt;/svg&gt;
+</value>
+  </data>
+  <metadata name="$this.Zoom" type="System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1.5</value>
+  </metadata>
+</root>
