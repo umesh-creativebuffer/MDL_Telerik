@@ -21,13 +21,13 @@ Partial Class MDI_Report_AbnormalResults
         Me.Table1 = New Telerik.Reporting.Table()
         Me.TextBox4 = New Telerik.Reporting.TextBox()
         Me.TextBox6 = New Telerik.Reporting.HtmlTextBox()
-        Me.AbnormalResultsDetails_0 = New Telerik.Reporting.JsonDataSource()
-        Me.AbnormalResultsDetails_1 = New Telerik.Reporting.JsonDataSource()
         Me.TextBox8 = New Telerik.Reporting.PictureBox()
+        Me.AbnormalResultsDetails_1 = New Telerik.Reporting.JsonDataSource()
         Me.Table2 = New Telerik.Reporting.Table()
         Me.TextBox3 = New Telerik.Reporting.TextBox()
         Me.HtmlTextBox1 = New Telerik.Reporting.HtmlTextBox()
         Me.PictureBox2 = New Telerik.Reporting.PictureBox()
+        Me.AbnormalResultsDetails_0 = New Telerik.Reporting.JsonDataSource()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'detail
@@ -81,7 +81,7 @@ Partial Class MDI_Report_AbnormalResults
         Me.Table1.ColumnGroups.Add(TableGroup1)
         Me.Table1.ColumnGroups.Add(TableGroup2)
         Me.Table1.ColumnGroups.Add(TableGroup3)
-        Me.Table1.DataSource = Me.AbnormalResultsDetails_1
+        Me.Table1.DataSource = Me.AbnormalResultsDetails_0
         Me.Table1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox4, Me.TextBox6, Me.TextBox8})
         Me.Table1.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Cm(0.75R), Telerik.Reporting.Drawing.Unit.Cm(1.25R))
         Me.Table1.Name = "Table1"
@@ -109,18 +109,6 @@ Partial Class MDI_Report_AbnormalResults
         Me.TextBox6.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox6.Value = "{Fields.ShortTestName}"
         '
-        'AbnormalResultsDetails_0
-        '
-        Me.AbnormalResultsDetails_0.DataSelector = "$.AbnormalResults[0]"
-        Me.AbnormalResultsDetails_0.Name = "AbnormalResultsDetails_0"
-        Me.AbnormalResultsDetails_0.Source = New System.Uri("JsonFiles\10094547.json", System.UriKind.Relative)
-        '
-        'AbnormalResultsDetails_1
-        '
-        Me.AbnormalResultsDetails_1.DataSelector = "$.AbnormalResults[1]"
-        Me.AbnormalResultsDetails_1.Name = "AbnormalResultsDetails_1"
-        Me.AbnormalResultsDetails_1.Source = New System.Uri("JsonFiles\10094547.json", System.UriKind.Relative)
-        '
         'TextBox8
         '
         Me.TextBox8.ImageAlignment = Telerik.Reporting.Drawing.ImageAlignment.BottomRight
@@ -131,6 +119,12 @@ Partial Class MDI_Report_AbnormalResults
         Me.TextBox8.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.TextBox8.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox8.Value = resources.GetString("TextBox8.Value")
+        '
+        'AbnormalResultsDetails_1
+        '
+        Me.AbnormalResultsDetails_1.DataSelector = "$.AbnormalResults[1]"
+        Me.AbnormalResultsDetails_1.Name = "AbnormalResultsDetails_1"
+        Me.AbnormalResultsDetails_1.Source = New System.Uri("JsonFiles\10094547.json", System.UriKind.Relative)
         '
         'Table2
         '
@@ -147,7 +141,7 @@ Partial Class MDI_Report_AbnormalResults
         Me.Table2.ColumnGroups.Add(TableGroup5)
         Me.Table2.ColumnGroups.Add(TableGroup6)
         Me.Table2.ColumnGroups.Add(TableGroup7)
-        Me.Table2.DataSource = Me.AbnormalResultsDetails_0
+        Me.Table2.DataSource = Me.AbnormalResultsDetails_1
         Me.Table2.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox3, Me.HtmlTextBox1, Me.PictureBox2})
         Me.Table2.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Cm(11.0R), Telerik.Reporting.Drawing.Unit.Cm(1.25R))
         Me.Table2.Name = "Table2"
@@ -182,6 +176,12 @@ Partial Class MDI_Report_AbnormalResults
         Me.PictureBox2.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Right
         Me.PictureBox2.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.PictureBox2.Value = resources.GetString("PictureBox2.Value")
+        '
+        'AbnormalResultsDetails_0
+        '
+        Me.AbnormalResultsDetails_0.DataSelector = "$.AbnormalResults[0]"
+        Me.AbnormalResultsDetails_0.Name = "AbnormalResultsDetails_0"
+        Me.AbnormalResultsDetails_0.Source = New System.Uri("JsonFiles\10094547.json", System.UriKind.Relative)
         '
         'MDI_Report_AbnormalResults
         '
