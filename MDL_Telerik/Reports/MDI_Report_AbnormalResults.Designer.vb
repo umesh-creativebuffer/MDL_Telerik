@@ -81,7 +81,7 @@ Partial Class MDI_Report_AbnormalResults
         Me.Table1.ColumnGroups.Add(TableGroup1)
         Me.Table1.ColumnGroups.Add(TableGroup2)
         Me.Table1.ColumnGroups.Add(TableGroup3)
-        Me.Table1.DataSource = Me.AbnormalResultsDetails_0
+        Me.Table1.DataSource = Me.AbnormalResultsDetails_1
         Me.Table1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox4, Me.TextBox6, Me.TextBox8})
         Me.Table1.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Cm(0.75R), Telerik.Reporting.Drawing.Unit.Cm(1.25R))
         Me.Table1.Name = "Table1"
@@ -147,7 +147,7 @@ Partial Class MDI_Report_AbnormalResults
         Me.Table2.ColumnGroups.Add(TableGroup5)
         Me.Table2.ColumnGroups.Add(TableGroup6)
         Me.Table2.ColumnGroups.Add(TableGroup7)
-        Me.Table2.DataSource = Me.AbnormalResultsDetails_1
+        Me.Table2.DataSource = Me.AbnormalResultsDetails_0
         Me.Table2.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox3, Me.HtmlTextBox1, Me.PictureBox2})
         Me.Table2.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Cm(11.0R), Telerik.Reporting.Drawing.Unit.Cm(1.25R))
         Me.Table2.Name = "Table2"
